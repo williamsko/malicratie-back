@@ -1,0 +1,12 @@
+django==2.2.4
+psycopg2-binary
+bcrypt
+rstr
+django-tastypie
+requests
+django-mptt
+boto3
+python-decouple
+django-cors-headers
+xlrd
+django-mptt-admin
