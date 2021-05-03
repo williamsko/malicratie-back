@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==2.2.4"
+psycopg2-binary = "*"
+bcrypt = "==3.1.7"
+rstr = "*"
+django-admin-generator = "*"
+django-tastypie = "*"
+requests = "*"
+django-mptt = "*"
+boto3 = "*"
+python-decouple = "*"
+boto = "*"
+django-cors-headers = "*"
+xlrd = "*"
+django-mptt-admin = "*"
