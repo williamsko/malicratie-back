@@ -10,3 +10,4 @@ python-decouple
 django-cors-headers
 xlrd
 django-mptt-admin
+django_admin_generator
