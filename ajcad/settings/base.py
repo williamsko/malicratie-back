@@ -53,7 +53,7 @@ INSTALLED_APPS = [
     'django_mptt_admin',
     'mptt',
     'corsheaders',
-    #'storages',
+    # 'storages',
 
 
 
@@ -101,7 +101,6 @@ TEMPLATES = [
 WSGI_APPLICATION = 'ajcad.wsgi.application'
 
 
-
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
@@ -119,7 +118,6 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
 
 
 # Internationalization
@@ -142,9 +140,9 @@ USE_TZ = True
 #AWS_SECRET_ACCESS_KEY = 'CexeUc/VFk3o7yHwpAZC2EsbUsMjtGf5AWFH8DpK'
 #AWS_STORAGE_BUCKET_NAME = 'ajcad-test-static'
 #AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
-#AWS_S3_OBJECT_PARAMETERS = {
+# AWS_S3_OBJECT_PARAMETERS = {
 #    'CacheControl': 'max-age=86400',
-#}
+# }
 #AWS_LOCATION = 'static'
 
 STATICFILES_DIRS = [
@@ -159,10 +157,25 @@ STATIC_URL = '/static/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
-#corsheaders
+# corsheaders
 CORS_ALLOW_CREDENTIALS = True
 CORS_ORIGIN_ALLOW_ALL = True
 
-#FILE_UPLOAD_HANDLERS
-FILE_UPLOAD_HANDLERS = ["django.core.files.uploadhandler.MemoryFileUploadHandler","django.core.files.uploadhandler.TemporaryFileUploadHandler"]
-FILE_UPLOAD_MAX_MEMORY_SIZE = 5242880 # make it 5Mb instead of 2Mb
+# FILE_UPLOAD_HANDLERS
+FILE_UPLOAD_HANDLERS = ["django.core.files.uploadhandler.MemoryFileUploadHandler",
+                        "django.core.files.uploadhandler.TemporaryFileUploadHandler"]
+FILE_UPLOAD_MAX_MEMORY_SIZE = 5242880  # make it 5Mb instead of 2Mb
+
+
+DATABASES = {
+
+    'default': {
+        'ENGINE': os.getenv('DATABASE_ENGINE', 'django.db.backends.sqlite3'),
+        'NAME': os.getenv('DATABASE_NAME', BASE_DIR / 'db.sqlite3'),
+        'USER': os.getenv('DATABASE_USERNAME', 'myprojectuser'),
+        'PASSWORD': os.getenv('DATABASE_PASSWORD', 'password'),
+        'HOST': os.getenv('DATABASE_HOST', '127.0.0.1'),
+        'PORT': os.getenv('DATABASE_PORT', 5432)
+    },
+
+}
