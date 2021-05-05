@@ -1,0 +1,23 @@
+#textAreaContainer{
+    width: 100%;
+    margin-bottom: 32px;
+}
+#inputComment{
+    width: 100%;
+}
+#btn_valider{
+    position: relative;
+    width: 200px;
+    
+}
+#btn_Container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: initial;
+}
+
+#commentAgain{
+    text-decoration:underline;
+    cursor: pointer;
+    font-weight: 700;
+}

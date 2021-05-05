@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Big+Shoulders+Text);
+
+#master_Container_5{
+    flex-direction: column;
+    width: 100%;
+    margin:0 !important;
+    max-width: 100%;
+    
+}
+.container{
+    max-width: 100%;
+    padding:0 !important;
+}
+
+#headerContainer_5{
+    flex-direction: row;
+    justify-content: space-between ;
+
+}
+
+
+#bodyContainer_5{
+    flex-direction: row;
+    width:100%;
+    margin:0 !important;
+    
+}
+
+
+#publicationContainer_5{
+    flex-direction: row;
+    display:flex;
+    justify-content: normal;
+    align-content: baseline;
+    flex-wrap: wrap;
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+      
+}
+
+#FitresContainer_5{
+    font-size: 14px;
+    font-weight: 600;
+    line-height:13px;
+    text-align: left;
+    background-color:rgb(245, 245, 245);
+    padding: 20px;
+    height:650px
+  
+}
+#filterLocation_2{
+    height:50px;
+    font-size:13px;
+    margin-bottom: 2rem;
+}
+
+#divider_5{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    border: 0;
+    align-self: center;
+    width: 30%;
+    border-top: 3px solid black;
+}
+
+#ListeMois{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color:rgb(94, 94, 94);
+}
+ 

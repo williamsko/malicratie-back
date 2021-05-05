@@ -1,0 +1,18 @@
+#textContainer{
+    background-color:rgb(248, 248, 248);
+    margin-top: -32px;
+    height: 100%;
+    width: 100%;
+}
+#text_summary{
+    padding:20px;
+    margin-left:20px;
+    margin-right:20px;
+    text-align: left;
+    width:95% !important ;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+
+ 
+}
+

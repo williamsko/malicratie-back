@@ -1,0 +1,8 @@
+.Demo__container{
+    flex-direction:row;
+    justify-content: flex-end;
+    display: flex;
+}
+.Demo__some-network{
+    padding-left:5px;
+}

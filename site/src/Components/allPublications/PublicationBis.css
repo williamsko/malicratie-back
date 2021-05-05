@@ -1,0 +1,64 @@
+@import url(http://fonts.googleapis.com/css?family=Big+Shoulders+Text);
+
+#resultContainer{
+    width:90%;
+    justify-items: center;
+    padding:0;
+    margin: 0;
+}
+#resultTitle{
+color: green;
+}
+#PublicationType{
+ text-align: left !important;
+ margin-top:-7px;
+ margin-bottom :8px;
+ font-family: 'Big Shoulders Text';
+}
+
+#photo_container{
+    width:25%;
+    height:133px;
+}
+#img{
+    width:100%;
+    height:100%;
+    padding:10px;
+    background-color: white;
+}
+
+#Detail_container{
+padding:5px 20px 0px 10px;
+font-size: 0.7em;
+width:75%;
+background-color: white;
+}
+
+#textDetail{
+align-items: left;
+overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+line-height: 16px;    
+max-height: 96px;     
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+}
+
+#textDatePublication_bis{
+    color:gray;
+    margin-top: 5px;
+}
+
+#hr{ 
+    width:100%; 
+    height:0.3px; 
+    background: rgb(241, 241, 241);
+}
+
+#fill-div_2 {
+    color: black;
+    flex-direction: row;
+    display: flex;
+    text-decoration: none;
+}

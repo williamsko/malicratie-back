@@ -1,0 +1,90 @@
+
+#CommentContainer{
+    background-color:white;
+    padding: 20px 20px 30px 20px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 5px;
+    border-color: rgb(230, 230, 230);
+    margin-bottom: 30px;
+}
+
+#CommentHeaderContainer{
+
+    text-align: left;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#ContainerAvatarUserInfo{
+    flex-direction: row;
+    display: flex;
+}
+
+#CommentAvatar{
+    background-color: rgb(182, 182, 182);
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 0.1px;
+    border-color: rgb(189, 189, 189);
+}
+#userInfos{
+    margin-left:10px;
+    margin-top: 5px;
+    font-size: 10px;
+}
+#userName{
+    font-size: 14px !important;
+    margin-top:0px;
+    margin-bottom:-7px;
+    color: green;
+}
+#creationDate{
+    text-align: right;
+    font-size: 10px;
+    margin-top:-10px;
+}
+#badgeVerifie{
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+}
+#iconChecked{
+    color:white;
+    margin-left: -4px;;
+}
+#titre_Comment{
+    font-size: 15px;
+    font-weight: 600;
+    color: green;
+    text-align: left;
+    padding-top:20px;
+    margin-left: 20px;
+}
+
+#text_Comment{
+    font-size: 15px;
+    padding:4px 20px 20px 20px;
+    text-align: left;
+    width:100%;
+    margin-bottom: 0 !important;
+    margin-top: 15px !important;
+ 
+}
+#illustrationContainer{
+    width: 100%;
+    height: auto;
+    background-color: brown;
+    border-radius: 10px;
+}
+#com_img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+

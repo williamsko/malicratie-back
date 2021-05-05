@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/css?family=Big+Shoulders+Text);
+
+#master_Container_4{
+    flex-direction: column;
+    width: 100%;
+    margin:0 !important;
+    max-width: 100%;
+    
+}
+.container{
+    max-width: 100%;
+    padding:0 !important;
+}
+
+#headerContainer_4{
+    flex-direction: row;
+    justify-content: space-between ;
+
+}
+
+
+#bodyContainer_4{
+    flex-direction: row;
+    width:100%;
+    margin:0 !important;
+    
+}
+
+
+#publicationContainer{
+    flex-direction: column;
+    display:flex;
+    justify-content: start;
+    align-content: space-around;
+    flex-wrap: wrap;
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+      
+}
+#paginationContainer{
+    flex-direction: row;
+    display:flex;
+    margin-top: 15px;
+    justify-content: start;
+    align-content: space-around;
+    flex-wrap: wrap;
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+      
+}
+
+.pagination > .active > a{
+    background-color:   #4CAF50;
+    border-color: gray;     
+    color: white;
+    cursor:pointer;
+    z-index:1;
+  }
+
+
+
+#FitresContainer{
+    font-size: 14px;
+    font-weight: 600;
+    line-height:13px;
+    text-align: left;
+    background-color:rgb(245, 245, 245);
+    padding: 20px;
+  
+}
+#divider_2{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    border: 0;
+    align-self: center;
+    width: 30%;
+    border-top: 3px solid black;
+}
+
+
+ 

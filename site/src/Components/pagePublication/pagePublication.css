@@ -1,0 +1,64 @@
+@import url(http://fonts.googleapis.com/css?family=Big+Shoulders+Text);
+
+#master_Container_2{
+    flex-direction: column;
+    width: 100%;
+    margin:0 !important;
+    max-width: 100%;
+    
+}
+.container{
+    max-width: 100%;
+    padding:0 !important;
+}
+
+#headerContainer_2{
+    flex-direction: row;
+    justify-content: space-between  ;
+}
+
+
+#bodyContainer_2{
+    flex-direction: row;
+    width:100%;
+    margin:0 !important;
+}
+
+
+#ContainerIllustration{
+    background-color: rgb(226, 226, 226);
+    padding:0 !important;
+    height: 450px;
+    
+    
+}
+
+#imgProject{
+    height: 100%;
+    width: 100%
+}
+
+
+#ContentPubContent{
+
+}
+#ContentDetail{
+    padding:30px;
+    text-align: justify;
+    
+}
+
+#AutrePublication{
+    font-size: 13px;
+    font-weight: 200;
+    line-height:13px;
+    text-align: left;
+    background-color:rgb(212, 212, 212);
+    padding: 5px;
+  
+}
+
+#quizzButton{
+    padding:10px;
+    justify-items: stretch;
+}

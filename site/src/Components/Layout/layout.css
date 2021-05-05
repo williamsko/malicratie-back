@@ -1,0 +1,6 @@
+#master_Container{
+    padding:0px !important;
+    justify-content: center;
+    flex-direction: column;
+    margin:0 !important;
+}

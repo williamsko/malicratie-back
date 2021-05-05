@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Big+Shoulders+Text);
+
+
+
+
+.container-fluid{
+    flex-direction: row;
+    display: grid;
+  grid-template-columns: 400px 1fr 200px;
+  grid-template-rows: auto 1fr auto;
+    padding: 2rem;
+  
+}
+
+#card{
+    margin-right: 20px;
+    
+}
+
+#scrolling-wrapper {
+    flex-direction: row;
+    display:flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+
+}
+
+
+#headerContainer{
+    flex-direction: row;
+    display: flex;
+ 
+}
+
+
+#container_name{
+    
+}
+
+#container_button{
+
+    align-items: center;
+    justify-content: center;
+}
+
+.h2{
+    font-size: 2em; 
+    font-family: "Big Shoulders Text";
+    font-weight: 500;
+}
+    
+#loader{
+    background-color: red;
+    width:500px;
+    height:500px
+}
+    
+    

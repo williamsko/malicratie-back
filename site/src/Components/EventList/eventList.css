@@ -1,0 +1,38 @@
+
+
+#conteneur{
+    flex-direction: column;
+    background: #3F3F3F;
+    display: flex;
+    padding: 2rem;
+}
+#header_container{
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+#section_name{
+   
+}
+#section_allButton{
+    
+}
+
+#events_container{
+    justify-content: space-around;
+    padding:2px;
+}
+
+.h2{
+    font-size: 2em; 
+    font-family: "Big Shoulders Text";
+    font-weight: 500;
+}
+
+.h1{
+    font-size: 2em; 
+    font-family: "Big Shoulders Text";
+    font-weight: 500;
+}
+    

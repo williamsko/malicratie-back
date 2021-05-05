@@ -1,0 +1,44 @@
+#card1{
+  min-width: 10rem;
+  max-width: 22rem;
+}
+
+#titreArticle{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block; 
+    width: 230px;
+    white-space: nowrap;
+    font-size: 18px;
+  }
+  
+  
+    .alignItems {
+      display: flex;
+      align-items: right;
+    } 
+  
+    #resume{
+      align-items: left;
+    }
+  
+  .img {
+      width: 100%;
+      height: 10vw;
+      object-fit: cover;
+      display: block;
+  }
+#content{
+  align-items: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 16px;    
+  max-height: 58px;     
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+#otherArticleContainer{
+  display:flex;
+  justify-content: center;
+}

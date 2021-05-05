@@ -1,0 +1,18 @@
+#PublicationType{
+    text-align: left !important;
+    margin-top:7px;
+    margin-bottom :4px;
+    font-family: 'Big Shoulders Text';
+   }
+#resultTitle{
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    color: green;
+}
+#divider{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}

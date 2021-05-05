@@ -1,0 +1,21 @@
+.conteneur{
+ 
+    padding:20px
+}
+
+#conteneurLogos{
+    flex-direction: row;
+    justify-items: left;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+.imageLogo{
+    width:170px;
+    height : 60px;
+    object-fit: cover;
+    margin:10px;
+  
+}

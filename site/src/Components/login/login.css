@@ -1,0 +1,20 @@
+
+#loginContainer{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+#logo_login{
+    width: 100%;
+    margin-bottom: 10px;
+    padding:10px
+}
+
+#loginform{
+    width: 30%;
+}
+#btnConnexion{
+    width: 100%;
+}
